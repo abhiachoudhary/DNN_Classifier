@@ -1,5 +1,5 @@
 # Classifier implementations for Deep Neural Network and Clustered Support Vector Machine
-Implementations for two classification algorithms for a two-dimensional multi-class dataset.
+Implementations for two classification algorithms for a two-dimensional multi-class dataset. This is a stand-alone project created to compare with our piecewise linear classification model which is avaialable at <a href="https://github.com/abhiachoudhary/Piecewise-Linear-Model-For-Nonconvex-Classifiers">this link</a>.
 
 ## PYTHON files description
 `DNN_Classifier.py`: This is the main implementation script for DNN using TensorFlow. The `get_data` routine lets you choose among different available datasets from Data folder or create a new dataset by calling `create_data.py` script. The remaining script is standard neural network functions with customizable choice of parameters (layers, activation function, training rate, gradient scheme etc.). The output is accuracy along with a pictorial view of classifier.
